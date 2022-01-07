@@ -1,4 +1,5 @@
 class Snake {
+  
   constructor(params) {
     if (!params.lineBox || params.lineBox <= 0)
       params.lineBox = 10;
