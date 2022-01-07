@@ -1,5 +1,5 @@
 class Snake {
-  
+
   constructor(params) {
     if (!params.lineBox || params.lineBox <= 0)
       params.lineBox = 10;
@@ -122,7 +122,6 @@ class Snake {
       this.interval = setInterval(this.checkEndGame.bind(this), this.intervalTime);
     }
   }
-
 
 }
 
